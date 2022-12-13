@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* *
+/**
  * main - main function to generate a random number
  *
  * Return: Always 0 (Success)
@@ -26,7 +26,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%d is negative\n",n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
