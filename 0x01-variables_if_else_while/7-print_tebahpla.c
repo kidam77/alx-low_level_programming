@@ -4,7 +4,7 @@
 /**
  * main - returns an alphabet in reverse order
  *
- * Returns: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
