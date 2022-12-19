@@ -3,7 +3,7 @@
 
 /**
  * swap_int - function that swaps the values of two integers
- * @a: first value 
+ * @a: first value
  * @b: second value
  * int c: address the swapped value will be sent to
  * Return: Alwaays 0 (Success)
