@@ -14,7 +14,7 @@ int _strcmp(char *s1, char *s2)
 
 	block = 0;
 
-	while (s1[block] == s2[block]; s1[block] != '\0')
+	while (s1[block] == s2[block] && s1[block] != '\0')
 	{
 		block++;
 	}
