@@ -8,14 +8,14 @@
 
 char *string_toupper(char *word)
 {
-	int length;
-
-	length = 0;
+	int length = 0;
 
 	while (word[length++])
 	{
 		if (word[length] >= 'a' && word[length] <= 'z')
+		{
 			word[length] -= 32;
+		}
 	}
 	return (word);
 }
