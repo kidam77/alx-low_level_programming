@@ -12,7 +12,7 @@ char *string_toupper(char *word)
 
 	length = 0;
 
-	while (word[length]++)
+	while (length++)
 	{
 		if (word[length] >= 'a' && word[length] <= 'z')
 		{
